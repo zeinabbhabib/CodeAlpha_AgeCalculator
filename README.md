@@ -9,7 +9,7 @@ A simple, clean, and responsive web application that calculates a user's exact a
  🚀 Live Demo
 
 🌐 Check out the live version here:  
-[**[https://yourusername.github.io/age-calculator]((https://zeynabsappcalculator.netlify.app/))**]  
+https://zeynabsappcalculator.netlify.app/
 
 
 
