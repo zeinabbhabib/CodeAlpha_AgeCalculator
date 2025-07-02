@@ -1,33 +1,35 @@
-🧮 Age Calculator
-A simple and responsive web application that calculates a user's age in years, months, and days based on their date of birth.
+ 🧮 Age Calculator
 
-🚀 Features
-User-friendly interface
+A simple, clean, and responsive web application that calculates a user's exact age in **years, months, and days** based on their date of birth.
 
-Validates input for day, month, and year
+![screenshot](./screenshot.png) <!-- Optional: Add a real screenshot file in your repo -->
 
-Displays accurate age based on today's date
 
-Responsive design (mobile and desktop friendly)
 
-Built using HTML, CSS, and JavaScript
+ 🚀 Live Demo
 
-📦 Technologies Used
-HTML5
+🌐 Check out the live version here:  
+**[https://yourusername.github.io/age-calculator](https://yourusername.github.io/age-calculator)**  
+> *(Replace with your actual GitHub Pages URL after deployment)*
 
-CSS3 (with media queries for responsiveness)
 
-Vanilla JavaScript (DOM manipulation & validation)
 
-📷 Preview
-(Add a screenshot here if you'd like)
+ ✨ Features
 
-📚 How to Use
-Enter your birth day, month, and year.
+- 🗓️ Accurate age calculation
+- ✅ Real-time validation for day, month, and year
+- 📱 Fully responsive design (mobile & desktop)
+- 🚫 Handles invalid and future dates gracefully
+- ⚙️ Built using only **HTML**, **CSS**, and **JavaScript** – no libraries
 
-Click the arrow button.
 
-Your exact age in years, months, and days will be displayed.
 
-✅ Live Demo
-(Add your GitHub Pages link here if published)
+ 🛠️ Technologies Used
+
+- HTML5  
+- CSS3 (with media queries for responsiveness)  
+- JavaScript (Vanilla DOM manipulation and date logic)
+
+
+
+
