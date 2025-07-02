@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>AGE CALCULATOR</h1>
+      </header>
+
+      <form id="age-form">
+        <div class="flex-container">
+          <div>
+            <label for="day">DAY</label>
+            <input id="day" name="day" type="number" min="1" max="31" placeholder="DD" required />
+            <span class="error-message" id="day-error"></span>
+          </div>
+          <div>
+            <label for="month">MONTH</label>
+            <input id="month" name="month" type="number" min="1" max="12" placeholder="MM" required />
+            <span class="error-message" id="month-error"></span>
+          </div>
+          <div>
+            <label for="year">YEAR</label>
+            <input id="year" name="year" type="number" min="1900" max="2025" placeholder="YYYY" required />
+            <span class="error-message" id="year-error"></span>
+          </div>
+        </div>
+
+        <div class="submit-container">
+          <hr />
+          <button type="button" id="btn" aria-label="Calculate age" onclick="calculateAge();">
+            <img src="icon-arrow.svg" alt="Arrow icon" />
+          </button>
+        </div>
+
+        <div class="result-container">
+          <div>
+            <span class="result-number" id="years">--</span>
+            <h1>years</h1>
+          </div>
+          <div>
+            <span class="result-number" id="months">--</span>
+            <h1>months</h1>
+          </div>
+          <div>
+            <span class="result-number" id="days">--</span>
+            <h1>days</h1>
+          </div>
+        </div>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
