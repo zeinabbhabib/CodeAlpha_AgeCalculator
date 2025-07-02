@@ -2,7 +2,7 @@
 
 A simple, clean, and responsive web application that calculates a user's exact age in **years, months, and days** based on their date of birth.
 
-![screenshot](./screenshot.png) <!-- Optional: Add a real screenshot file in your repo -->
+
 
 
 
